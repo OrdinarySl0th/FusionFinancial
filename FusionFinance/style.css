@@ -1,0 +1,14 @@
+:root {
+    --primary-color: 
+    --secondary-color:
+    --tertiary-color:
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1em;
+}

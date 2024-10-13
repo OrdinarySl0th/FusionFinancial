@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World Button</title>
+</head>
+<body>
+    <!-- Adjust Bills Screen-->
+    <div id="SetBills" class="form-container">
+        <h1>Set up your Constant Bills</h1>
+        <input type="text" id="bill1" placeholder="Enter Bill 1...">
+        <input type="text" id="bill2" placeholder="Enter Bill 2...">
+        <input type="text" id="bill3" placeholder="Enter Bill 3...">
+        <input type="text" id="bill4" placeholder="Enter Bill 4...">
+        <input type="text" id="bill5" placeholder="Enter Bill 5...">
+        <button id="AssignBills" class="primary">Assign value to Bill</button>
+        <button id="calculateMoney" class="primary"> Continue to Calculate Bills</button>
+    </div>
+    <!--Calculate Bills Screen-->
+    <div id="payBillsScreen">
+    <h1>Welcome to Fusion Finance!</h1>
+    <h2>I can help you with all your financial needs!</h2>
+    <h2>Please enter your income...</h2>
+    <input type="income" id="income" placeholder="Enter Income...">
+    <button id="calcMoneyButton" class="primary">Split Money</button>
+    <button id="backSetBills" class="primary"> Set Bills</button>
+    <button id="loadInvestingScreen" class="primary">Investing</button>
+    <div id="message-container"></div>
+    </div>
+
+    <!--Investing Screen-->
+    <div id="investingScreen">
+    <h1>Welcome to Fusion Finance Investing Page!</h1>
+    <h2>Here you can track all your investments</h2>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
